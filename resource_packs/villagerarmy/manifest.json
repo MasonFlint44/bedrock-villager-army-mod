@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Villager Army Mod",
+        "name": "Villager Army Mod",
+        "uuid": "dcb89a57-04d5-470e-88e2-f920ff043bdd",
+        "version": [0, 0, 1],
+        "min_engine_version": [1, 20, 30]
+    },
+    "modules": [
+        {
+            "description": "Villager Army Mod",
+            "type": "resources",
+            "uuid": "8b97fa92-034c-4e99-8008-784ff25b2b51",
+            "version": [0, 0, 1]
+        }
+    ]
+}
