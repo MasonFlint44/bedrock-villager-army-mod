@@ -1,0 +1,23 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "minecraft:turtle_helmet.villager",
+      "item": {
+        "minecraft:turtle_helmet": "query.owner_identifier == 'minecraft:villager_v2'"
+      },
+      "materials": {
+        "default": "armor",
+        "enchanted": "armor_enchanted"
+      },
+      "textures": {
+        "default": "textures/models/armor/turtle_villager",
+        "enchanted": "textures/misc/enchanted_actor_glint"
+      },
+      "geometry": {
+        "default": "geometry.villager.armor.helmet"
+      },
+      "render_controllers": [ "controller.render.armor" ]
+    }
+  }
+}

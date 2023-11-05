@@ -1,4 +1,7 @@
-{   
+{
+    "files.associations": {
+        "*.json": "jsonc"
+    },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
