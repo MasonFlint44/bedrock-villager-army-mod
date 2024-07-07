@@ -52,7 +52,10 @@
       "geometry": "Geometry.default",
       "materials": [{ "*": "(query.is_baby || variable.profession_index == 0) ? Material.default : Material.masked" }],
       "textures": ["Array.biomes[query.mark_variant]", "Array.professions[variable.profession_index]"],
-      "part_visibility": [{ "brim": "!query.has_armor_slot(0)" }]
+      "part_visibility": [
+        { "brim": "!query.has_armor_slot(0)" },
+        { "body": "!query.has_armor_slot(1) || !query.has_armor_slot(2)" }
+      ]
     },
     "controller.render.villager_v2_level": {
       "arrays": {
